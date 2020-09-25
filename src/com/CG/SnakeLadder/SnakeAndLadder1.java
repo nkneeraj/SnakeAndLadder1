@@ -17,18 +17,22 @@ public class SnakeAndLadder1 {
 		int action_taken = (int)Math.floor(Math.random()*10)%3;	
 		
 		while(current_position<100)
-		{
+		{	dice_value = (int)Math.floor(Math.random()*10)%6;
 			action_taken = (int)Math.floor(Math.random()*10)%3;
 			if(action_taken == no_play)
 				continue;
 			else if(action_taken == ladder_value)
+			{
 				current_position+=dice_value;
+				if(current_position > 100)
+					current_position-=dice_value;
+			}
 			else
 			{	
 				current_position-=dice_value;
 				if(current_position<0)
 					current_position=0;
-			}	
+			}
 		}
 		
 		System.out.println("Start position:"+start_position + "\n"+ "Current_position:"+ current_position );
