@@ -1,6 +1,10 @@
 package com.CG.SnakeLadder;
 
 public class SnakeAndLadder1 {
+	
+	public static final int no_play = 0;
+	public static final int ladder_value = 1;
+	public static final int snake_value = 2;
 	public static void main(String[] args) {
 		
 		System.out.println("Welcome to the game");
@@ -9,6 +13,16 @@ public class SnakeAndLadder1 {
 		int no_of_players = 1;	
 		int dice_value = (int)Math.floor(Math.random()*10)%6+1;
 		
-		System.out.println("Start position:"+start_position + "\n" +"Dice value:"+dice_value);
+		int current_position = start_position;
+		int action_taken = (int)Math.floor(Math.random()*10)%3;	
+		
+		if(action_taken == no_play)
+			return;
+		else if(action_taken == ladder_value)
+			current_position+=dice_value;
+		else 
+			current_position-=dice_value;
+		
+		System.out.println("Start position:"+start_position + "\n" +"Dice value:"+dice_value + "\n"+ "Current_position:"+ current_position );
 	}
 }
