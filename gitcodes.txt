@@ -1,0 +1,65 @@
+(delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'feature-demo' on GitHub by visiting:
+remote:      https://github.com/himansh-23/javapractice/pull/new/feature-demo
+remote: 
+To https://github.com/himansh-23/javapractice.git
+ * [new branch]      feature-demo -> feature-demo
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git status
+On branch feature-demo
+nothing to commit, working directory clean
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git pull origin master
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+From https://github.com/himansh-23/javapractice
+ * branch            master     -> FETCH_HEAD
+   def0286..9d4328e  master     -> origin/master
+Updating def0286..9d4328e
+Fast-forward
+ src/main/java/com/birdgelabz/javapractice/App.java | 1 +
+ 1 file changed, 1 insertion(+)
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git checkout feature-demo 
+Switched to branch 'feature-demo'
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git merge master
+Auto-merging src/main/java/com/birdgelabz/javapractice/App.java
+CONFLICT (content): Merge conflict in src/main/java/com/birdgelabz/javapractice/App.java
+Automatic merge failed; fix conflicts and then commit the result.
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git status
+On branch feature-demo
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   src/main/java/com/birdgelabz/javapractice/App.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git add .
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git commit -m "conflict resolve"
+[feature-demo 13eab9b] conflict resolve
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git push orign feature-demo 
+fatal: 'orign' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ git push origin feature-demo 
+Username for 'https://github.com': himansh-23
+Password for 'https://himansh-23@github.com': 
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 662 bytes | 0 bytes/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/himansh-23/javapractice.git
+   a9419bf..13eab9b  feature-demo -> feature-demo
+user@himanshu-latitude-3490:~/eclipse-workspace/javapractice$ 

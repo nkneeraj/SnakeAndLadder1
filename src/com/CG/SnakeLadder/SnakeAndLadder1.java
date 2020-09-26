@@ -17,7 +17,8 @@ public class SnakeAndLadder1 {
 		int action_taken = (int)Math.floor(Math.random()*10)%3;	
 		
 		while(current_position<100)
-		{
+		{	
+			dice_value = (int)Math.floor(Math.random()*10)%6+1;
 			action_taken = (int)Math.floor(Math.random()*10)%3;
 			if(action_taken == no_play)
 				continue;

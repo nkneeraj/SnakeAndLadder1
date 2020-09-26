@@ -1,0 +1,35 @@
+INFO  | 2020-09-19 17:36:07 | [main] JavaPractice1.App (App.java:17) - Hekko WorldWill be printed on info
+WARN  | 2020-09-19 17:36:07 | [main] JavaPractice1.App (App.java:18) - Hekko WorldWill be printed on warn
+ERROR | 2020-09-19 17:36:07 | [main] JavaPractice1.App (App.java:19) - Hekko WorldWill be printed on error
+FATAL | 2020-09-19 17:36:07 | [main] JavaPractice1.App (App.java:20) - Hekko WorldWill be printed on fatal
+INFO  | 2020-09-19 17:36:07 | [main] JavaPractice1.App (App.java:21) - Appending String: Hekko World.
+INFO  | 2020-09-19 17:36:23 | [main] JavaPractice1.App (App.java:17) - Hello WorldWill be printed on info
+WARN  | 2020-09-19 17:36:23 | [main] JavaPractice1.App (App.java:18) - Hello WorldWill be printed on warn
+ERROR | 2020-09-19 17:36:23 | [main] JavaPractice1.App (App.java:19) - Hello WorldWill be printed on error
+FATAL | 2020-09-19 17:36:23 | [main] JavaPractice1.App (App.java:20) - Hello WorldWill be printed on fatal
+INFO  | 2020-09-19 17:36:23 | [main] JavaPractice1.App (App.java:21) - Appending String: Hello World.
+INFO  | 2020-09-19 17:38:51 | [main] JavaPractice1.App (App.java:17) - Hello WorldWill be printed on info
+WARN  | 2020-09-19 17:38:51 | [main] JavaPractice1.App (App.java:18) - Hello WorldWill be printed on warn
+ERROR | 2020-09-19 17:38:51 | [main] JavaPractice1.App (App.java:19) - Hello WorldWill be printed on error
+FATAL | 2020-09-19 17:38:51 | [main] JavaPractice1.App (App.java:20) - Hello WorldWill be printed on fatal
+INFO  | 2020-09-19 17:38:51 | [main] JavaPractice1.App (App.java:21) - Appending String: Hello World.
+INFO  | 2020-09-19 17:39:00 | [main] JavaPractice1.App (App.java:17) - Hello WorldWill be printed on info
+WARN  | 2020-09-19 17:39:00 | [main] JavaPractice1.App (App.java:18) - Hello WorldWill be printed on warn
+ERROR | 2020-09-19 17:39:00 | [main] JavaPractice1.App (App.java:19) - Hello WorldWill be printed on error
+FATAL | 2020-09-19 17:39:00 | [main] JavaPractice1.App (App.java:20) - Hello WorldWill be printed on fatal
+INFO  | 2020-09-19 17:39:00 | [main] JavaPractice1.App (App.java:21) - Appending String: Hello World.
+INFO  | 2020-09-19 17:39:22 | [main] JavaPractice1.App (App.java:17) - Hello WorldWill be printed on info
+WARN  | 2020-09-19 17:39:22 | [main] JavaPractice1.App (App.java:18) - Hello WorldWill be printed on warn
+ERROR | 2020-09-19 17:39:22 | [main] JavaPractice1.App (App.java:19) - Hello WorldWill be printed on error
+FATAL | 2020-09-19 17:39:22 | [main] JavaPractice1.App (App.java:20) - Hello WorldWill be printed on fatal
+INFO  | 2020-09-19 17:39:22 | [main] JavaPractice1.App (App.java:21) - Appending String: Hello World.
+INFO  | 2020-09-19 17:40:34 | [main] JavaPractice1.App (App.java:17) - Hello WorldWill be printed on info
+WARN  | 2020-09-19 17:40:34 | [main] JavaPractice1.App (App.java:18) - Hello WorldWill be printed on warn
+ERROR | 2020-09-19 17:40:34 | [main] JavaPractice1.App (App.java:19) - Hello WorldWill be printed on error
+FATAL | 2020-09-19 17:40:34 | [main] JavaPractice1.App (App.java:20) - Hello WorldWill be printed on fatal
+INFO  | 2020-09-19 17:40:34 | [main] JavaPractice1.App (App.java:21) - Appending String: Hello World.
+INFO  | 2020-09-19 17:40:50 | [main] JavaPractice1.App (App.java:17) - Hello WorldWill be printed on info
+WARN  | 2020-09-19 17:40:50 | [main] JavaPractice1.App (App.java:18) - Hello WorldWill be printed on warn
+ERROR | 2020-09-19 17:40:50 | [main] JavaPractice1.App (App.java:19) - Hello WorldWill be printed on error
+FATAL | 2020-09-19 17:40:50 | [main] JavaPractice1.App (App.java:20) - Hello WorldWill be printed on fatal
+INFO  | 2020-09-19 17:40:50 | [main] JavaPractice1.App (App.java:21) - Appending String: Hello World.
