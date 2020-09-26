@@ -49,7 +49,7 @@ public class SnakeAndLadder1 {
 				break;
 			else
 			{
-				dice_value = (int)Math.floor(Math.random()*10)%6;
+				dice_value = (int)Math.floor(Math.random()*10)%6+1;
 				action_taken = (int)Math.floor(Math.random()*10)%3;
 				counter2++;
 				if(action_taken == no_play)
@@ -57,7 +57,7 @@ public class SnakeAndLadder1 {
 				else if(action_taken == ladder_value)
 				{	while(action_taken==ladder_value)
 				{
-					dice_value = (int)Math.floor(Math.random()*10)%6;
+					dice_value = (int)Math.floor(Math.random()*10)%6+1;
 					action_taken = (int)Math.floor(Math.random()*10)%3;
 					p2_position+=dice_value;
 					if(p2_position > 100)
